@@ -1,0 +1,45 @@
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/*Gameboard*/
+* {
+  background: lightblue;
+  color: blue;
+}
+
+#gameboard {
+  height: 500px;
+  width: 500px;
+  border: 5px solid blue;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+section {
+  box-sizing: border-box;
+  border: 3px solid blue;
+}
+
+button {
+  border: solid blue;
+}
+
