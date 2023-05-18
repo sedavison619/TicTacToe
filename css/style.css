@@ -25,6 +25,16 @@ body {
   background: lightblue;
   color: blue;
 }
+.square{
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  color: blue;
+}
+
+.square:hover{
+  background: darkblue
+}
 
 #gameboard {
   height: 500px;
